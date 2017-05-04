@@ -21,5 +21,4 @@ In Action: https://plnkr.co/edit/HlBamg?p=preview
 It watches the three most common things that could change the vertical height of a textarea:
 * Model changes
 * Window resize events
-* Visibility changes
-** This means that initializing your textarea while hidden is A-OK.
+* Visibility changes (This means that initializing your textarea while hidden is A-OK!)
