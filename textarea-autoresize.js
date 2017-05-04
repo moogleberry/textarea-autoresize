@@ -1,4 +1,4 @@
-angular.module('textareaAutoresize', []).service('textareaAutoresize', textareaAutoresize);
+angular.module('textareaAutoresize', []).directive('textareaAutoresize', textareaAutoresize);
 textareaAutoresize.$inject = ['$window'];
 function textareaAutoresize($window) {
   return {
